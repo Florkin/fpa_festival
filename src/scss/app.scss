@@ -1,26 +1,19 @@
-/* By Athlon Front-End Team */
+/** VENDOR */
+@import 'base/variables';
+@import '~bootstrap/scss/bootstrap';
+@import "~typeface-open-sans/index.css";
+@import "~typeface-libre-baskerville/index.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
-/* Core variables */
-@import 'base/vars';
+/** BASE */
+@import 'base/typography';
+@import 'base/bootstrap-overrides';
 
-/* CSS Reset */
-@import 'base/reset';
+/** COMPONENTS */
+@import 'components/layout';
+@import 'components/hero';
+@import 'components/carousel';
+@import 'components/event';
 
-/* CSS print */
-@import 'base/print';
 
-/* Fonts */
-@import 'base/fonts';
 
-/* Mixins, helpers and functions */
-@import 'base/mixins';
-
-/* Vendor */
-
-/* Components */
-
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Demo Page styles */
-@import 'demo';

@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/variables";
+@import "variables";
+
+.btn {
+  text-transform: uppercase;
+
+  &.btn-primary {
+    color: $white;
+  }
+}
+
+.card {
+  margin-bottom: 15px;
+
+  .card-date {
+    position: absolute;
+    width: 65px;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    text-align: center;
+    background: $white;
+    border-top: 5px solid $gold;
+
+    @extend .shadow;
+
+    .card-date-day {
+      font-weight: $font-weight-bold;
+      font-size: $h2-font-size;
+    }
+  }
+}

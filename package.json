@@ -19,7 +19,13 @@
       "url": "https://pnikoloff.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "typeface-libre-baskerville": "^1.1.13",
+    "typeface-open-sans": "^1.1.13"
+  },
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",

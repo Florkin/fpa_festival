@@ -13,7 +13,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const environment = require('./configuration/environment');
 
 const templateFiles = fs.readdirSync(environment.paths.source)
-  .filter((file) => path.extname(file).toLowerCase() === '.html');
+  .filter((file) => path.extname(file)
+    .toLowerCase() === '.html');
 
 const htmlPluginEntries = templateFiles.map((template) => new HTMLWebpackPlugin({
   inject: true,
