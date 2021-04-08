@@ -9,3 +9,9 @@ html {
 .footer {
   background: $black;
 }
+
+.event-right-section {
+  @include media-breakpoint-up(lg) {
+    border-left: 1px solid $gray-200;
+  }
+}
