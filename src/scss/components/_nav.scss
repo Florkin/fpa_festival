@@ -1,0 +1,11 @@
+.navbar.sticky-top {
+  @include media-breakpoint-up(lg) {
+    transition-duration: 300ms;
+    height: 85px;
+
+    &.sticked {
+      height: 50px;
+      box-shadow: 1px 0px 15px rgba(0,0,0,0.3);
+    }
+  }
+}
