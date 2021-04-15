@@ -1,6 +1,10 @@
 .carousel-img {
-  min-height: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 250px;
+
+  @include media-breakpoint-up(md) {
+    min-height: 500px;
+  }
 }
