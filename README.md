@@ -1,4 +1,4 @@
-# FPA - Festival
+# FPA Festival (html/css mockup)
 #### Projet 3 - Openclassrooms PHP/Symfony
 
 ## Installation
