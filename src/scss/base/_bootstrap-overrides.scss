@@ -12,6 +12,21 @@
 
 .card {
   margin-bottom: 15px;
+  height: 97%;
+
+  .btn {
+    display: block;
+  }
+
+  .card-body-wrapper {
+    padding-bottom: 15px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .card-date {
     position: absolute;
